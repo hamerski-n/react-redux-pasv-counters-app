@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-redux-pasv-counters-app/static/css/main.f4bc1fdf.chunk.css",
-    "main.js": "/react-redux-pasv-counters-app/static/js/main.b0a033d9.chunk.js",
-    "main.js.map": "/react-redux-pasv-counters-app/static/js/main.b0a033d9.chunk.js.map",
+    "main.js": "/react-redux-pasv-counters-app/static/js/main.5ca36419.chunk.js",
+    "main.js.map": "/react-redux-pasv-counters-app/static/js/main.5ca36419.chunk.js.map",
     "runtime-main.js": "/react-redux-pasv-counters-app/static/js/runtime-main.7f6c0bb2.js",
     "runtime-main.js.map": "/react-redux-pasv-counters-app/static/js/runtime-main.7f6c0bb2.js.map",
     "static/js/2.4674d483.chunk.js": "/react-redux-pasv-counters-app/static/js/2.4674d483.chunk.js",
     "static/js/2.4674d483.chunk.js.map": "/react-redux-pasv-counters-app/static/js/2.4674d483.chunk.js.map",
     "index.html": "/react-redux-pasv-counters-app/index.html",
-    "precache-manifest.464967730348818382fa07382280bc5f.js": "/react-redux-pasv-counters-app/precache-manifest.464967730348818382fa07382280bc5f.js",
+    "precache-manifest.50355f6dcba6590775a534e66caa8694.js": "/react-redux-pasv-counters-app/precache-manifest.50355f6dcba6590775a534e66caa8694.js",
     "service-worker.js": "/react-redux-pasv-counters-app/service-worker.js",
     "static/css/main.f4bc1fdf.chunk.css.map": "/react-redux-pasv-counters-app/static/css/main.f4bc1fdf.chunk.css.map",
     "static/js/2.4674d483.chunk.js.LICENSE.txt": "/react-redux-pasv-counters-app/static/js/2.4674d483.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7f6c0bb2.js",
     "static/js/2.4674d483.chunk.js",
     "static/css/main.f4bc1fdf.chunk.css",
-    "static/js/main.b0a033d9.chunk.js"
+    "static/js/main.5ca36419.chunk.js"
   ]
 }
