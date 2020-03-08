@@ -16,8 +16,19 @@ export function counterReset(counterId) {
     }
 }
 
+export function counterDeleteConfirm(counter) {
+    return (dispatch) => {
+        dispatch({type: 'COUNTER_DELETE_CONFIRM', payload: counter})
+    }
+}
+
 export function counterDelete(counterId) {
     return (dispatch) => {
         dispatch({type: 'COUNTER_DELETE', payload: counterId})
+    }
+}
+export function counterDeleteCancel(counterId) {
+    return (dispatch) => {
+        dispatch({type: 'COUNTER_DELETE_CANCEL', payload: counterId})
     }
 }

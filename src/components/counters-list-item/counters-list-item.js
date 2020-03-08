@@ -22,7 +22,7 @@ function CountersListItem(props) {
                                 onClick={() => props.reset(props.counter.counterId)}>Reset</button>
                         <button className='btn btn-secondary mr-1'>Edit</button>
                         <button className='btn btn-danger mr-1'
-                                onClick={() => props.remove(props.counter.counterId)}>Delete</button>
+                                onClick={() => props.removeConfirm(props.counter)}>Delete</button>
                     </div>
                 </div>
             </div>

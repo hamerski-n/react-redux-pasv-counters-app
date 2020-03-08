@@ -4,6 +4,7 @@ const initialState = {
         {counterId: 98, counterName: '2d counter', counterValue: 2},
         {counterId: 99, counterName: '3d counter', counterValue: 3}
     ],
+    confirmCounter: {id: 0, name: ''},
 
 };
 
@@ -24,7 +25,7 @@ const updateCounterValue = (state, counterId, arg) => {
 
 const removeCounterFromList = (state, counterId) => {
     const newCountersList = state.countersList.filter(el => el.counterId !== counterId);
-    return {...state, countersList: newCountersList}
+    return {...state, countersList: newCountersList, confirmCounter: {id: 0, name: ''}}
 };
 
 const reducer = (state = initialState, action) => {
@@ -38,8 +39,14 @@ const reducer = (state = initialState, action) => {
         case 'COUNTER_RESET':
             return updateCounterValue(state, action.payload, 'reset');
 
+        case 'COUNTER_DELETE_CONFIRM':
+            return {...state, confirmCounter: {id: action.payload.counterId, name: action.payload.counterName}};
+
         case 'COUNTER_DELETE':
             return removeCounterFromList(state, action.payload);
+
+        case 'COUNTER_DELETE_CANCEL':
+            return {...state, confirmCounter: {id: 0, name: ''}};
 
         default:
             return state;
