@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/react-redux-pasv-counters-app/static/css/main.c03a594f.chunk.css",
-    "main.js": "/react-redux-pasv-counters-app/static/js/main.68a8d246.chunk.js",
-    "main.js.map": "/react-redux-pasv-counters-app/static/js/main.68a8d246.chunk.js.map",
+    "main.js": "/react-redux-pasv-counters-app/static/js/main.72a03d0b.chunk.js",
+    "main.js.map": "/react-redux-pasv-counters-app/static/js/main.72a03d0b.chunk.js.map",
     "runtime-main.js": "/react-redux-pasv-counters-app/static/js/runtime-main.7f6c0bb2.js",
     "runtime-main.js.map": "/react-redux-pasv-counters-app/static/js/runtime-main.7f6c0bb2.js.map",
     "static/css/2.66165e39.chunk.css": "/react-redux-pasv-counters-app/static/css/2.66165e39.chunk.css",
-    "static/js/2.72147100.chunk.js": "/react-redux-pasv-counters-app/static/js/2.72147100.chunk.js",
-    "static/js/2.72147100.chunk.js.map": "/react-redux-pasv-counters-app/static/js/2.72147100.chunk.js.map",
+    "static/js/2.7ad5f3c0.chunk.js": "/react-redux-pasv-counters-app/static/js/2.7ad5f3c0.chunk.js",
+    "static/js/2.7ad5f3c0.chunk.js.map": "/react-redux-pasv-counters-app/static/js/2.7ad5f3c0.chunk.js.map",
     "index.html": "/react-redux-pasv-counters-app/index.html",
-    "precache-manifest.06325a672680902e6088f83e8b3f2992.js": "/react-redux-pasv-counters-app/precache-manifest.06325a672680902e6088f83e8b3f2992.js",
+    "precache-manifest.9c045883948cae39b8a919aaf00476b5.js": "/react-redux-pasv-counters-app/precache-manifest.9c045883948cae39b8a919aaf00476b5.js",
     "service-worker.js": "/react-redux-pasv-counters-app/service-worker.js",
     "static/css/2.66165e39.chunk.css.map": "/react-redux-pasv-counters-app/static/css/2.66165e39.chunk.css.map",
     "static/css/main.c03a594f.chunk.css.map": "/react-redux-pasv-counters-app/static/css/main.c03a594f.chunk.css.map",
-    "static/js/2.72147100.chunk.js.LICENSE.txt": "/react-redux-pasv-counters-app/static/js/2.72147100.chunk.js.LICENSE.txt"
+    "static/js/2.7ad5f3c0.chunk.js.LICENSE.txt": "/react-redux-pasv-counters-app/static/js/2.7ad5f3c0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7f6c0bb2.js",
     "static/css/2.66165e39.chunk.css",
-    "static/js/2.72147100.chunk.js",
+    "static/js/2.7ad5f3c0.chunk.js",
     "static/css/main.c03a594f.chunk.css",
-    "static/js/main.68a8d246.chunk.js"
+    "static/js/main.72a03d0b.chunk.js"
   ]
 }
