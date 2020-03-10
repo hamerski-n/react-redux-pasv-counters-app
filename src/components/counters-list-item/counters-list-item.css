@@ -1,0 +1,7 @@
+input[disabled] {
+    background-color: white;
+    border-style: none;
+}
+input {
+    border-color: dodgerblue;
+}

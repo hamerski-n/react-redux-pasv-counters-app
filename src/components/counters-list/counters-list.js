@@ -1,10 +1,16 @@
 import React from "react";
 import CountersListItem from "../counters-list-item";
-import {counterDecOne, counterDeleteConfirm, counterIncOne, counterReset} from "../../redux/actions";
+import {
+    counterDecOne,
+    counterDeleteConfirm,
+    counterIncOne,
+    counterReset,
+    editCounterName,
+    saveCounterName
+} from "../../redux/actions";
 import {connect} from "react-redux";
 
 function CountersList(props) {
-    console.log('List countersList', props.countersList);
     return (
         <>
             {
@@ -15,6 +21,8 @@ function CountersList(props) {
                         decrement={props.counterDec}
                         reset={props.counterRes}
                         removeConfirm={props.counterDeleteConfirm}
+                        edit={props.editCounterName}
+                        save={props.saveCounterName}
                     />
                 )
             }
@@ -32,6 +40,8 @@ const mapDispatchToProps = {
     counterDec: counterDecOne,
     counterRes: counterReset,
     counterDeleteConfirm: counterDeleteConfirm,
+    editCounterName: editCounterName,
+    saveCounterName: saveCounterName
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(CountersList);

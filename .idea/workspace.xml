@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="056786bc-959b-4566-9ccc-d1d5464c4a98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/delete-confirmation-modal/confirmation-delete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/delete-confirmation-modal/confirmation-delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/delete-confirmation-modal/index.js" afterDir="false" />
+    <list default="true" id="056786bc-959b-4566-9ccc-d1d5464c4a98" name="Default Changelist" comment="Counters add, total and edit">
+      <change afterPath="$PROJECT_DIR$/src/components/add-counter-form/add-counter-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/add-counter-form/add-counter-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/add-counter-form/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counters-total/counters-total.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counters-total/counters-total.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/counters-total/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/counters-list-item/counters-list-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/counters-list-item/counters-list-item.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/counters-list-item/counters-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/counters-list-item/counters-list-item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/counters-list/counters-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/counters-list/counters-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
@@ -41,8 +45,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -97,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583617919456</updated>
-      <workItem from="1583617921060" duration="37880000" />
+      <workItem from="1583617921060" duration="81767000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1583618269568</created>
@@ -113,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583655404834</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Delete confirmation modal">
+      <created>1583660124314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583660124314</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,50 +136,65 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Counter list, increment, decrement, reset and delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Counter list, increment, decrement, reset and delete" />
+    <MESSAGE value="Delete confirmation modal" />
+    <MESSAGE value="Counters add, total and edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Counters add, total and edit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="5" key="#ESLint" timestamp="1583747554609">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="5" key="#ESLint/0.0.1280.689/461.1080.1000.504@0.0.1280.689" timestamp="1583747554609" />
     <state x="371" y="93" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583618135159">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="93" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689/462.1080.1000.504@0.0.1280.689" timestamp="1583618135159" />
-    <state x="230" y="0" key="CommitChangelistDialog2" timestamp="1583660067987">
+    <state x="230" y="0" key="CommitChangelistDialog2" timestamp="1583816771322">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state x="230" y="0" key="CommitChangelistDialog2/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583816771322" />
     <state x="235" y="0" key="CommitChangelistDialog2/0.0.1280.689/462.1080.1000.504@0.0.1280.689" timestamp="1583618268889" />
-    <state x="230" y="0" key="CommitChangelistDialog2/0.0.1280.689/463.1080.1000.504@0.0.1280.689" timestamp="1583660067987" />
+    <state x="230" y="0" key="CommitChangelistDialog2/0.0.1280.689/463.1080.1000.504@0.0.1280.689" timestamp="1583660123604" />
     <state x="421" y="101" key="FileChooserDialogImpl" timestamp="1583622047603">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="101" key="FileChooserDialogImpl/0.0.1280.689/462.1080.1000.504@0.0.1280.689" timestamp="1583622047603" />
-    <state width="1259" height="112" key="GridCell.Tab.0.bottom" timestamp="1583657114459">
+    <state width="1259" height="112" key="GridCell.Tab.0.bottom" timestamp="1583816771415">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1259" height="112" key="GridCell.Tab.0.bottom/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583816771415" />
+    <state width="1259" height="112" key="GridCell.Tab.0.bottom/0.0.1280.689/461.1080.1000.504@0.0.1280.689" timestamp="1583749339956" />
     <state width="1259" height="105" key="GridCell.Tab.0.bottom/0.0.1280.689/462.1080.1000.504@0.0.1280.689" timestamp="1583624552601" />
-    <state width="1259" height="112" key="GridCell.Tab.0.bottom/0.0.1280.689/463.1080.1000.504@0.0.1280.689" timestamp="1583657114459" />
-    <state width="1259" height="112" key="GridCell.Tab.0.center" timestamp="1583657114458">
+    <state width="1259" height="112" key="GridCell.Tab.0.bottom/0.0.1280.689/463.1080.1000.504@0.0.1280.689" timestamp="1583660144219" />
+    <state width="1259" height="112" key="GridCell.Tab.0.center" timestamp="1583816771415">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1259" height="112" key="GridCell.Tab.0.center/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583816771415" />
+    <state width="1259" height="112" key="GridCell.Tab.0.center/0.0.1280.689/461.1080.1000.504@0.0.1280.689" timestamp="1583749339956" />
     <state width="1259" height="105" key="GridCell.Tab.0.center/0.0.1280.689/462.1080.1000.504@0.0.1280.689" timestamp="1583624552601" />
-    <state width="1259" height="112" key="GridCell.Tab.0.center/0.0.1280.689/463.1080.1000.504@0.0.1280.689" timestamp="1583657114458" />
-    <state width="1259" height="112" key="GridCell.Tab.0.left" timestamp="1583657114458">
+    <state width="1259" height="112" key="GridCell.Tab.0.center/0.0.1280.689/463.1080.1000.504@0.0.1280.689" timestamp="1583660144218" />
+    <state width="1259" height="112" key="GridCell.Tab.0.left" timestamp="1583816771415">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1259" height="112" key="GridCell.Tab.0.left/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583816771415" />
+    <state width="1259" height="112" key="GridCell.Tab.0.left/0.0.1280.689/461.1080.1000.504@0.0.1280.689" timestamp="1583749339956" />
     <state width="1259" height="105" key="GridCell.Tab.0.left/0.0.1280.689/462.1080.1000.504@0.0.1280.689" timestamp="1583624552600" />
-    <state width="1259" height="112" key="GridCell.Tab.0.left/0.0.1280.689/463.1080.1000.504@0.0.1280.689" timestamp="1583657114458" />
-    <state width="1259" height="112" key="GridCell.Tab.0.right" timestamp="1583657114458">
+    <state width="1259" height="112" key="GridCell.Tab.0.left/0.0.1280.689/463.1080.1000.504@0.0.1280.689" timestamp="1583660144217" />
+    <state width="1259" height="112" key="GridCell.Tab.0.right" timestamp="1583816771415">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1259" height="112" key="GridCell.Tab.0.right/0.0.1280.689/460.1080.1000.504@0.0.1280.689" timestamp="1583816771415" />
+    <state width="1259" height="112" key="GridCell.Tab.0.right/0.0.1280.689/461.1080.1000.504@0.0.1280.689" timestamp="1583749339956" />
     <state width="1259" height="105" key="GridCell.Tab.0.right/0.0.1280.689/462.1080.1000.504@0.0.1280.689" timestamp="1583624552601" />
-    <state width="1259" height="112" key="GridCell.Tab.0.right/0.0.1280.689/463.1080.1000.504@0.0.1280.689" timestamp="1583657114458" />
+    <state width="1259" height="112" key="GridCell.Tab.0.right/0.0.1280.689/463.1080.1000.504@0.0.1280.689" timestamp="1583660144218" />
     <state x="131" y="91" key="SettingsEditor" timestamp="1583619808165">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="131" y="91" key="SettingsEditor/0.0.1280.689/462.1080.1000.504@0.0.1280.689" timestamp="1583619808165" />
-    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1583660118001">
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1583660127506">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689/462.1080.1000.504@0.0.1280.689" timestamp="1583618607609" />
-    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689/463.1080.1000.504@0.0.1280.689" timestamp="1583660118001" />
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689/463.1080.1000.504@0.0.1280.689" timestamp="1583660127506" />
   </component>
 </project>
