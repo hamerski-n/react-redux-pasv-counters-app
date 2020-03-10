@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-redux-pasv-counters-app/static/css/main.c03a594f.chunk.css",
-    "main.js": "/react-redux-pasv-counters-app/static/js/main.fdee4d64.chunk.js",
-    "main.js.map": "/react-redux-pasv-counters-app/static/js/main.fdee4d64.chunk.js.map",
+    "main.css": "/react-redux-pasv-counters-app/static/css/main.81d90ab9.chunk.css",
+    "main.js": "/react-redux-pasv-counters-app/static/js/main.eddf0e1d.chunk.js",
+    "main.js.map": "/react-redux-pasv-counters-app/static/js/main.eddf0e1d.chunk.js.map",
     "runtime-main.js": "/react-redux-pasv-counters-app/static/js/runtime-main.7f6c0bb2.js",
     "runtime-main.js.map": "/react-redux-pasv-counters-app/static/js/runtime-main.7f6c0bb2.js.map",
     "static/css/2.66165e39.chunk.css": "/react-redux-pasv-counters-app/static/css/2.66165e39.chunk.css",
-    "static/js/2.685843c5.chunk.js": "/react-redux-pasv-counters-app/static/js/2.685843c5.chunk.js",
-    "static/js/2.685843c5.chunk.js.map": "/react-redux-pasv-counters-app/static/js/2.685843c5.chunk.js.map",
+    "static/js/2.ab9d737d.chunk.js": "/react-redux-pasv-counters-app/static/js/2.ab9d737d.chunk.js",
+    "static/js/2.ab9d737d.chunk.js.map": "/react-redux-pasv-counters-app/static/js/2.ab9d737d.chunk.js.map",
     "index.html": "/react-redux-pasv-counters-app/index.html",
-    "precache-manifest.fd96c515bd214eec51884852f9af99e8.js": "/react-redux-pasv-counters-app/precache-manifest.fd96c515bd214eec51884852f9af99e8.js",
+    "precache-manifest.73cc71de495745c072a218a80a07b4d3.js": "/react-redux-pasv-counters-app/precache-manifest.73cc71de495745c072a218a80a07b4d3.js",
     "service-worker.js": "/react-redux-pasv-counters-app/service-worker.js",
     "static/css/2.66165e39.chunk.css.map": "/react-redux-pasv-counters-app/static/css/2.66165e39.chunk.css.map",
-    "static/css/main.c03a594f.chunk.css.map": "/react-redux-pasv-counters-app/static/css/main.c03a594f.chunk.css.map",
-    "static/js/2.685843c5.chunk.js.LICENSE.txt": "/react-redux-pasv-counters-app/static/js/2.685843c5.chunk.js.LICENSE.txt"
+    "static/css/main.81d90ab9.chunk.css.map": "/react-redux-pasv-counters-app/static/css/main.81d90ab9.chunk.css.map",
+    "static/js/2.ab9d737d.chunk.js.LICENSE.txt": "/react-redux-pasv-counters-app/static/js/2.ab9d737d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7f6c0bb2.js",
     "static/css/2.66165e39.chunk.css",
-    "static/js/2.685843c5.chunk.js",
-    "static/css/main.c03a594f.chunk.css",
-    "static/js/main.fdee4d64.chunk.js"
+    "static/js/2.ab9d737d.chunk.js",
+    "static/css/main.81d90ab9.chunk.css",
+    "static/js/main.eddf0e1d.chunk.js"
   ]
 }

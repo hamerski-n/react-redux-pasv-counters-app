@@ -1,0 +1,1 @@
+{"version":3,"sources":["counters-list-item.css"],"names":[],"mappings":"AAAA,gBACI,qBAAuB,CACvB,iBACJ,CACA,MACI,oBACJ","file":"main.81d90ab9.chunk.css","sourcesContent":["input[disabled] {\r\n    background-color: white;\r\n    border-style: none;\r\n}\r\ninput {\r\n    border-color: dodgerblue;\r\n}"]}
